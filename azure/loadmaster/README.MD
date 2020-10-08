@@ -233,7 +233,7 @@ module "loadmaster" {
 * **lm_market_details** - (map) Defines LoadMaster Image from marketplace
 * **network_security_rules** - We can pass network security rule to configure provided network security group. That is provided by default. Default rule is opening all the ports so please consider to close it once you going for production.  
 
-```json
+```bash
 default = {
   publisher      = "kemptech"
   offer          = "vlm-azure"
