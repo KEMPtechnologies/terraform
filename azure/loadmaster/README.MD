@@ -56,7 +56,7 @@ resource "azurerm_subnet_network_security_group_association" "str_sub_nsg" {
 }
 
 module "loadmaster" {
-  source                 = "https://github.com/KEMPtechnologies/terraform.git//azure//loadmaster"
+  source                 = "github.com/KEMPtechnologies/terraform.git//azure//loadmaster"
 
   is_ha                  = true
 
@@ -144,7 +144,7 @@ resource "azurerm_subnet_network_security_group_association" "str_sub_nsg" {
 }
 
 module "loadmaster" {
-  source                 = "https://github.com/KEMPtechnologies/terraform.git//azure//loadmaster"
+  source                 = "github.com/KEMPtechnologies/terraform.git//azure//loadmaster"
 
   is_ha                  = false
 
@@ -183,7 +183,7 @@ output "lms_public_ip" {
 ```terraform
 
 module "loadmaster" {
-  source                 = "https://github.com/KEMPtechnologies/terraform.git//azure//loadmaster"
+  source                 = "github.com/KEMPtechnologies/terraform.git//azure//loadmaster"
 
   is_ha                  = false
 
